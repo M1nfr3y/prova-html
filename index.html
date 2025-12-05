@@ -45,10 +45,9 @@
             display: flex;
             justify-content: center;
             align-items: center; 
-            
-            width: 80%;
+            width: 100%;
             padding: 14px;
-            margin: 10px 0;
+            margin: 5px 0;
             background: #1f2d5a;
             color: white;
             text-decoration: none;
@@ -59,6 +58,12 @@
         .btn:hover {
             background: #3451a1;
         }
+		.flex {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
     </style>
 </head>
 <body>
@@ -66,12 +71,13 @@
         <img src="Versione Verticale-blu.jpg" alt="IT Centric Logo" class="logo">
         <h1>Benvenuto in IT Centric</h1>
         <p>Seguici nei nostri canali ufficiali:</p>
-        <a class="btn" href="https://itcentric.it/" target="_blank">🌐 Sito Ufficiale</a>
-        <a class="btn" href="https://www.linkedin.com/company/it-centric/posts/?feedView=all" target="_blank">🔗 LinkedIn</a>
-        <a class="btn" href="https://www.instagram.com/itcentric_innovation?igsh=ZXJqdWw5eHNyMjZn" target="_blank">📸 Instagram</a>
-        <a class="btn" href="https://www.tiktok.com/@it_centric_innovation?_r=1&_t=ZN-91yBqSqZBuo" target="_blank">🎵 TikTok</a>
-        <a class="btn" href="https://www.facebook.com/share/1BZ4C5QUc3/?mibextid=wwXIfr" target="_blank">📘 Facebook</a>
+		<div class="flex">
+			<a class="btn" href="https://itcentric.it/" target="_blank">🌐 Sito Ufficiale</a>
+			<a class="btn" href="https://www.linkedin.com/company/it-centric/posts/?feedView=all" target="_blank">🔗 LinkedIn</a>
+			<a class="btn" href="https://www.instagram.com/itcentric_innovation?igsh=ZXJqdWw5eHNyMjZn" target="_blank">📸 Instagram</a>
+			<a class="btn" href="https://www.tiktok.com/@it_centric_innovation?_r=1&_t=ZN-91yBqSqZBuo" target="_blank">🎵 TikTok</a>
+			<a class="btn" href="https://www.facebook.com/share/1BZ4C5QUc3/?mibextid=wwXIfr" target="_blank">📘 Facebook</a>
+		</div>
     </div>
 </body>
-
 </html>
